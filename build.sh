@@ -11,4 +11,4 @@ bundle exec veewee vbox validate ${BOX_NAME}
 
 # Should be as simple as `bundle exec veewee vbox export ${BOX_NAME}`,
 # but alas: https://github.com/jedi4ever/veewee/issues/601
-vagrant package --base ${BOX_NAME} --output ${BOX_NAME}.box
+${VAGRANT_CMD:=vagrant} package --base ${BOX_NAME} --output ${BOX_NAME}.box
