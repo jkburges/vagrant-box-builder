@@ -1,0 +1,18 @@
+.rake_test_cache
+.DS_Store
+.rbenv-version
+.idea
+.vagrant
+*.iml
+cache/
+**~
+# Hide rubinius files
+.rbx
+# Hide my personal node file
+data_bags/node/tfotak-vagrant.json
+*.swp
+
+# Some extra personal ignore settings
+.bundle
+iso/*
+**.box
