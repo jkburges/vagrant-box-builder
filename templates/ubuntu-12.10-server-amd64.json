@@ -9,7 +9,7 @@
                 "scripts/postinstall.sh"
             ],
             "override": {
-                "virtualbox": {
+                "ubuntu-12.10-server-amd64": {
                     "execute_command": "echo 'vagrant'|sudo -S sh '{{.Path}}'"
                 }
             }
@@ -31,6 +31,7 @@
             "boot_wait": "4s",
             "disk_size": 81920,
             "guest_os_type": "Ubuntu_64",
+            "headless": true,
             "http_directory": "http",
             "iso_checksum": "4bd3270bde86d7e4e017e3847a4af485",
             "iso_checksum_type": "md5",
