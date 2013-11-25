@@ -16,3 +16,4 @@ data_bags/node/tfotak-vagrant.json
 .bundle
 iso/*
 **.box
+**/packer_cache
